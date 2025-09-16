@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tess Salloon — Cosmetologist</title>
+  <meta name="description" content="Tess Salloon — Cosmetologist. Hair services, contact, and gallery.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Tess Salloon</h1>
+      <nav class="site-nav" aria-label="Main Navigation">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="hero">
+      <h2>Professional Hair & Beauty</h2>
+      <p>Personalized cuts, color, and styling in a friendly, modern salon.</p>
+      <a class="cta" href="#contact">Book an appointment</a>
+    </section>
+
+    <section id="about">
+      <h2>About Tess</h2>
+      <p>Tess is a licensed cosmetologist specializing in modern cuts, balayage, and bridal styling. She focuses on listening to clients and delivering long-lasting results.</p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>Haircut & Styling</li>
+        <li>Color & Highlights (balayage, foils)</li>
+        <li>Blowouts & Treatments</li>
+        <li>Bridal & Special Events</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <p>Add photos to the `assets/gallery/` folder to replace placeholders.</p>
+      <div class="gallery-grid">
+        <button class="gallery-item" data-full="https://images.unsplash.com/photo-1556228722-4c3b1be1b3b6?auto=format&fit=crop&w=1200&q=80"><img src="https://images.unsplash.com/photo-1556228722-4c3b1be1b3b6?auto=format&fit=crop&w=600&q=60" alt="Sample haircut 1"></button>
+        <button class="gallery-item" data-full="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=60" alt="Sample haircut 2"></button>
+        <button class="gallery-item" data-full="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=1200&q=80"><img src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=600&q=60" alt="Sample haircut 3"></button>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:tess@example.com">tess@example.com</a></p>
+      <p>Phone: <a href="tel:+11234567890">(123) 456-7890</a></p>
+      <form id="contact-form">
+        <label for="name">Your name</label>
+        <input id="name" name="name" required>
+        <label for="email">Your email</label>
+        <input id="email" name="email" type="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Tess Salloon</p>
+      <p>Find me on <a href="#">Instagram</a></p>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <img class="lightbox-img" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
